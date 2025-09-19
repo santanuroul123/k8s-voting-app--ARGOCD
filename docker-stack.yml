@@ -28,7 +28,7 @@ services:
     networks:
       - frontend
     deploy:
-      replicas: 1
+      replicas: 2
 
   result:
     image: dockersamples/examplevotingapp_result
